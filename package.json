@@ -1,0 +1,15 @@
+{
+  "name": "typescript-bound-fixture",
+  "version": "1.0.0",
+  "main": "dist/bound.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "bundle": "tsc --project tsconfig.json --noEmit false"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "26.6.6"
+  }
+}
